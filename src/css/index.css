@@ -1,0 +1,150 @@
+.header-videocall {
+  padding: 15px;
+  border-bottom: 1px solid #e2e1e0;
+}
+.header-videocall span, .header-videocall svg {
+  vertical-align: middle;
+}
+.contenedor {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+#myVideo{
+  width: 100%;
+  cursor: pointer;
+  background: rgba(240, 240, 240, 0.5);
+  margin: 10px;
+  border-radius: 5px;
+  background-image: url(/img/profile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.text-center-videocall{ 
+  text-align: center;
+}
+#remoteContainer {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+}
+#remoteContainer video {
+  background: rgba(240, 240, 240, 0.5);
+  width: 100%;
+  border-radius: 5px;
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.content-my-video, .content-remote-video{
+  position: relative;
+}
+
+.content-control{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 20px;
+}
+.control-item {
+  text-align: center;
+  padding: 3px;
+  margin: 10px;
+}
+.text-endcall {
+  color: #fff;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn span, .btn svg {
+  vertical-align: middle;
+}
+.btn span{
+  margin-left: 20px;
+}
+.btn-danger {
+  background-color: white; 
+  background: #B71C1C;
+  font-weight: 400;
+}
+.btn-warning {
+  background-color: white; 
+  background: #ffc107;
+  font-weight: 400;
+}
+
+.btn-danger:hover {
+  background-color: red;
+  color: white;
+}
+
+.content-clock {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+  background-color: #e2e1e0;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 10; /* keep on top of other elements on the page */
+  box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+}
+
+.content-clock div {
+  font-size: 1.6em;
+  padding: 8px 20px;
+  background: #26c6da;
+  color: #e2e1e0;
+  margin: 2px;
+  display: inline-table;
+}
+.text-clock-item {
+  font-size: 0.5em;
+  font-weight: 900;
+}
+.closeClock {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.normalContentClock {
+  width: 100%;
+  text-align: center;
+}
+.normalContentClock div {
+  font-size: 1em;
+  padding: 4px 10px;
+  background: #000;
+  color: #e2e1e0;
+  margin: 2px;
+  display: inline-table;
+  font-weight: 900;
+}
+.btn-call{
+  background: rgb(139, 195, 74);
+  color: #e2e1e0;
+  font-weight: 800;
+}

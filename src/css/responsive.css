@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+    .contenedor {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .header {
+        text-align: center;
+    }
+    main {
+        background-color: #ccc;
+    }
+    .content-app {
+        width: 100%;
+        display: block;
+    }
+    .content-remote-video, .content-remote-video video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        top: 55px;
+        /*background: url(https://app.companyon.ca/img/logo.png) no-repeat center center fixed;*/
+        background: #e5e5e5;
+        overflow: hidden;
+    }
+    .content-my-video{
+        width: 100%;
+        max-width: 150px;
+        position: fixed;
+        right: 0;
+        top: 80px;
+    }
+    .text-endcall{
+        display: none;
+    }
+    .control-item svg {
+        padding: 3px !important;
+    }
+    .content-control {
+        top: 0px;
+    }
+    .content-videocall-control-btn {
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        bottom: 5px;
+        left: 0;
+    }
+    .btn {
+        width: 80px;
+        margin: 0 auto;
+    }
+}
